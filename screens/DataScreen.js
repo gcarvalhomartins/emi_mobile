@@ -1,5 +1,5 @@
-import React, { useState, useCallback, useEffect } from "react";
-import { View, StyleSheet, ScrollView, Dimensions, RefreshControl, Platform } from "react-native";
+import React, { useState, useCallback, useEffect } from "react-native";
+import { View, StyleSheet, ScrollView, Dimensions, RefreshControl } from "react-native";
 import { 
   Appbar, Card, Text, useTheme, Button, 
   ActivityIndicator, FAB, Divider, Chip, ProgressBar,
@@ -7,8 +7,8 @@ import {
 } from "react-native-paper";
 import axios from "axios";
 import * as Animatable from "react-native-animatable";
-// import { LineChart } from "react-native-chart-kit";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { LineChart } from "react-native-chart-kit";
+import { SafeAreaView } from "react-native";
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 import { useFocusEffect } from "@react-navigation/native";
 import { HapticFeedback } from '../utils/haptics';
