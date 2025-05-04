@@ -90,10 +90,7 @@ const HomeScreen = ({ navigation }) => {
         <Animatable.View animation="fadeIn" duration={1000}>
           <Card style={styles.heroCard}>
             <Card.Cover
-              source={{
-                uri: 'https://images.unsplash.com/photo-1621274403997-37aace184f49?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-                cache: 'force-cache'
-              }}
+              source={require('./banner.png')}
               style={styles.heroImage}
             />
             <Card.Content style={styles.heroContent}>
