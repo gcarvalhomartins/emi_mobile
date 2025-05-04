@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useEffect } from "react-native";
+import React, { useState, useCallback, useEffect } from "react";
 import { View, StyleSheet, ScrollView, Dimensions, RefreshControl } from "react-native";
 import { 
   Appbar, Card, Text, useTheme, Button, 
