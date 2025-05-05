@@ -6,7 +6,12 @@ import { SafeAreaView } from 'react-native';
 import * as Animatable from 'react-native-animatable';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { HapticFeedback } from '../utils/haptics';
-import { SUPABASE_API_KEY } from '@env';
+import {
+  EXPO_PUBLIC_SUPABASE_URL as SUPABASE_URL,
+  EXPO_PUBLIC_SUPABASE_API_KEY as SUPABASE_API_KEY,
+  EXPO_PUBLIC_SUPABASE_AUTH as SUPABASE_AUTH
+} from '@env';
+
 
 const { width } = Dimensions.get('window');
 

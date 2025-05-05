@@ -12,7 +12,12 @@ import { SafeAreaView } from "react-native";
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 import { useFocusEffect } from "@react-navigation/native";
 import { HapticFeedback } from '../utils/haptics';
-import {SUPABASE_URL, SUPABASE_API_KEY, SUPABASE_AUTH} from '@env';
+import {
+  EXPO_PUBLIC_SUPABASE_URL as SUPABASE_URL,
+  EXPO_PUBLIC_SUPABASE_API_KEY as SUPABASE_API_KEY,
+  EXPO_PUBLIC_SUPABASE_AUTH as SUPABASE_AUTH
+} from '@env';
+
 // Constantes para autenticação do Supabase
 
 const TelaMonitoramento = ({ navigation }) => {
